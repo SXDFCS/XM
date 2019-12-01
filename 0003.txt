@@ -52,10 +52,10 @@
             <p>葡萄藤轻游戏专注于桌游领域，提供在线杀人游戏，捉鬼，炸狼堡等多种聚会游戏，以下线下聚会桌游道具
         </div>
         <div class="logo_2">
-            <img src="images/椭圆1.png" width="80px" height="80px"/>
+            <img src="images/椭圆1.png" width="80vw" height="80vh"/>
         </div>
         <div class="logo_3">
-            <img src="images/椭圆2.png" width="80px" height="80px"/>
+            <img src="images/椭圆2.png" width="80vw" height="80vh"/>
         </div>
     </div>
 </body>
