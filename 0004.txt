@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+<head>
+    <title>
+        任务4
+    </title>
+    <style type="text/css">
+    body{
+        background-color:#EFF0F4;
+        overflow:hidden;
+        margin:0;
+        padding:0;
+    } 
+        .title{
+        width:100%;
+        height:60px;
+        background-color:#5EBFCC;
+        }
+        .tag_1{
+            margin:0;
+            float:left;
+            color:white;
+            height:60px;
+            padding-left:2%;
+            line-height:60px;
+        }
+        .tag_2{
+            margin:0;
+            color:white;
+            text-align:center;
+            font-weight:400;
+            line-height:60px;
+        }
+        .tag_3{
+            margin:0;
+            float:right;
+            color:white;
+            height:60px;
+            padding-right:2%;
+            line-height:60px;
+        }
+        .phone{
+            margin-top:10px;
+            margin-bottom:10px;
+            width:100px;
+            height:82px;
+            display:inline-block;
+        }
+        .identity{
+            border-left:0;
+            width: 100%;
+            margin-top:10px;
+            margin-bottom:10px;
+            display:inline-block;
+            position:absolute;
+            left:100;
+        }
+        .lock{
+            margin-top:10px;
+            margin-bottom:10px;
+            width:100px;
+            height:82px;
+            display:inline-block;
+        }
+        .password{
+            border-left:0;
+            width: 100%;
+            margin-top:10px;
+            margin-bottom:10px;
+            display:inline-block;
+            position:absolute;
+            left:100;
+        }  
+        .login{
+            width:100%;
+            height:60px;
+            background-color:#5EBFCC;
+        }  
+        .login_1{
+            color:white;
+            line-height:60px;
+            text-align:center;
+        }
+        .tag_4{
+            color: #5EBFCC;
+            float:right;
+            margin-right:10px;
+            border-bottom:2px solid #5EBFCC;
+        }
+ </style>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <p class="tag_1">注册</p>
+            <p class="tag_3">关闭</p>
+            <p class="tag_2">登录</p>
+        </div>   
+    </header>        
+        <div>
+            <div class="phone">
+                <img src="images/手机.png" style="vertical-align:middle;width:100px;height:80px;">
+            </div>
+            <div class="identity">
+                <input type="identity" placeholder="请输入手机号" style="border:0;height:80px;width:100%;">
+            </div>
+        </div>
+        <div>
+            <div class="lock">
+                <img src="images/锁.png" style="vertical-align:middle;width:100px;height:80px;">
+            </div>
+            <div class="password">
+                <input type="password" placeholder="请输入密码" style="border:0;height:80px;width:100%;">
+            </div> 
+        </div>  
+        <div class="login">
+            <p class="login_1">登录</p>
+        </div>
+        <div class="tag_4">
+            <p>忘记密码</p>
+        </div>
+</body>
+</html>
